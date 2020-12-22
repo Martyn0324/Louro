@@ -101,13 +101,6 @@ async def d6(ctx):
     response = random.choice(d6)
     await ctx.send(response)
 
-#@client.command()
-#async def dracy(ctx):
-    #x = ['https://i.imgur.com/pvFoy4Y.gif', 'https://i.pinimg.com/originals/31/36/76/313676e86ad5ddd94821ff3ebe53ca6e.gif',
-         #'https://64.media.tumblr.com/df2bb295c3130b6701bda356e6000786/tumblr_najgugzKzp1r3p42ko3_500.gif',
-         #'https://media1.tenor.com/images/50b5a9f1746cef1fa005b1fdce20a8bd/tenor.gif?itemid=13953833']
-    #await ctx.send(random.choice(x))
-
 @client.command()
 async def d20(ctx):
     d20 = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20']
