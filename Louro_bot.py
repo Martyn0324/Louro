@@ -15,6 +15,7 @@ import time
 import re
 import numpy
 import matplotlib.pyplot as plt
+from nltk import word_tokenize
 
 token = open("C:/Program Files (x86)/Steam/Músicas/tokenLouro.txt", 'r').readline()
 client = commands.Bot(command_prefix = 'Louro, ', case_insensitive=True)
@@ -72,6 +73,14 @@ async def on_message(message):
         response = "Yes, why do you bother?"
         await message.channel.send(response)
 
+@client.listen()
+async def on_message(message):
+    if message.content.lower() == 'louro, tokenize this!':
+        tokenization = word_tokenize(message.content)
+        await message.channel.send(tokenization)
+        response = "There it is. Are you happy now? Cráááá!"
+        await message.channel.send(response)        
+        
 #Changing status
 @client.event
 async def on_ready():
