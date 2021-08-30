@@ -119,3 +119,14 @@ import duel
                                 await ctx.send("Cráááá! Come on! Did you really think that the romans, in 24 A.D. would think about a shield that was effective against firearms from 19th Century? Not even the heavy armor from Medieval Ages could stand up for that! Cráááá! Stupid! Stupid! Cráááá!")
                                 time.sleep(4)
                                 await ctx.send("Congratulations, " + opponent.mention + "! You've won the duel, thanks to " + str(ctx.author.mention) + " stupidity(or innocence, I don't care)! Cráááááá!")
+
+
+#Making lists and dictionaries with possible events during duel, based on number got in d6 or d20:
+start_pistol = ["You and your opponent face each other, everything is quiet, the wind whispers in your ears, a tumbleweed pass tumbling between your opponent and you",
+                "The movie's name is 'The good, the bad and the ugly', so there's can be only one ugly!",
+                "https://media3.giphy.com/media/3o7btSHUTdraHEsx0Y/giphy.gif"]
+pistol = ["https://i.imgur.com/fMVG1zu.gif", 'https://i.gifer.com/17OP.gif', "https://steamuserimages-a.akamaihd.net/ugc/850466350749345950/52DBB6A20A11689CF49563F3D76644B81F462C41/", 
+         "https://media1.tenor.com/images/e2c51cda20c46849b3de1ad1b3bffc35/tenor.gif?itemid=7278985", "https://media1.tenor.com/images/57dc2f274a5a20c28b2f5ab07bf54e38/tenor.gif?itemid=14191557",
+         ]
+pistol_ending = ["https://thumbs.gfycat.com/AdmirableVerifiableEarthworm-size_restricted.gif", "https://media4.giphy.com/media/hpXxJ78YtpT0s/giphy.gif", "https://media1.tenor.com/images/033469bc7e191b8e8a4bf22b14660b5f/tenor.gif?itemid=5455071", 
+                 "https://media0.giphy.com/media/TuWNuhXl09cXpqQDRg/giphy.gif", "https://media2.giphy.com/media/uldwvPqvuRVxzkmhi5/giphy.gif"]
