@@ -1,22 +1,11 @@
-
-docutils @ file:///C:/ci/docutils_1617481617511/work
-entrypoints==0.3
-et-xmlfile==1.0.1
-fastcache==1.1.0
 aiohttp==3.7.4
 async-timeout==3.0.1
 discord.py==1.7.3
 multidict==5.1.0
 yarl==1.6.3
-nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1613680548246/work
-networkx @ file:///tmp/build/80754af9/networkx_1598376031484/work
-nltk @ file:///tmp/build/80754af9/nltk_1618327084230/work
-nose @ file:///tmp/build/80754af9/nose_1606773131901/work
-notebook @ file:///C:/ci/notebook_1616443715883/work
-numba @ file:///C:/ci/numba_1616774458845/work
-numexpr @ file:///C:/ci/numexpr_1618856738664/work
-numpy @ file:///C:/ci/numpy_and_numpy_base_1618497418457/work
-numpydoc @ file:///tmp/build/80754af9/numpydoc_1605117425582/work
+nltk==3.6.1
+regex==2021.4.4
+numpy==1.20.1
 olefile==0.46
 parso==0.7.0
 pathspec==0.7.0
