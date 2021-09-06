@@ -17,7 +17,7 @@ import numpy
 import matplotlib.pyplot as plt
 from nltk import word_tokenize
 
-token = open("tokenLouro.txt", 'r').readline()
+token = TOKEN
 client = commands.Bot(command_prefix = 'Louro, ', case_insensitive=True)
 
 @client.remove_command('help')
