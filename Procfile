@@ -1,1 +1,1 @@
-worker: python bot/Louro_bot.py
+worker: python3 Louro_bot.py
